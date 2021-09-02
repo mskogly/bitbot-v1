@@ -6,17 +6,17 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (receivedNumber == 3) {
         basic.showLeds(`
             . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            . . . # .
+            # # # # #
+            . . . # .
             . . . . .
             `)
     } else if (receivedNumber == 4) {
         basic.showLeds(`
             . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            . # . . .
+            # # # # #
+            . # . . .
             . . . . .
             `)
     }
